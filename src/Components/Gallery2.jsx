@@ -2,7 +2,7 @@
 import React, { useState } from "react";
 import Image from "next/image";
 
-const Gallery = () => {
+const Gallery2 = () => {
   const [imageNumber, setImageNumber] = useState(0);
 
   if (imageNumber === 2) {
@@ -24,10 +24,10 @@ const Gallery = () => {
   let posteo = "";
   switch (imageNumber) {
     case 0:
-      posteo = "/posteo-0.jpg";
+      posteo = "/posteo-2.jpg";
       break;
     case 1:
-      posteo = "/posteo-1.jpg";
+      posteo = "/posteo-3.jpg";
       break;
     default:
       console.log("El número no coincide con ningún caso.");
@@ -59,4 +59,4 @@ const Gallery = () => {
   );
 };
 
-export default Gallery;
+export default Gallery2;
