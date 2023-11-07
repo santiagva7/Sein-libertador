@@ -1,6 +1,6 @@
-'use client';
-import React, { useState } from "react";
-import Image from "next/image";
+'use client'
+import React, { useState } from "react"
+import Image from "next/image"
 
 const Gallery = () => {
   const [imageNumber, setImageNumber] = useState(0);

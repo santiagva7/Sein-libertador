@@ -1,7 +1,7 @@
-import Card from "@/Components/Card";
-import Gallery from "@/Components/Gallery";
-import Gallery2 from "@/Components/Gallery2";
-import Gallery3 from "@/Components/Gallery3";
+import Card from "@/Components/Card"
+import Gallery from "@/Components/Gallery"
+import Gallery2 from "@/Components/Gallery2"
+import Gallery3 from "@/Components/Gallery3"
 
 export default function Home() {
   return (

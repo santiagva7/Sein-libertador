@@ -1,7 +1,7 @@
-import React from "react";
-import Image from "next/image";
-import { FaWhatsapp, FaInstagram } from 'react-icons/fa';
-import { FiMail } from 'react-icons/fi';
+import React from "react"
+import Image from "next/image"
+import { FaWhatsapp, FaInstagram } from 'react-icons/fa'
+import { FiMail } from 'react-icons/fi'
 
 const instagram = "https://www.instagram.com/sein.libertador/?utm_source=ig_web_button_share_sheet&igshid=OGQ5ZDc2ODk2ZA=="
 
