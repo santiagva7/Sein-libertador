@@ -24,10 +24,10 @@ const Gallery3 = () => {
   let posteo = "";
   switch (imageNumber) {
     case 0:
-      posteo = "/posteo-4.jpg";
+      posteo = "/posteo-4.JPG";
       break;
     case 1:
-      posteo = "/posteo-5.jpg";
+      posteo = "/posteo-5.JPG";
       break;
     default:
       console.log("El número no coincide con ningún caso.");
