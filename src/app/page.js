@@ -20,7 +20,12 @@ export default function Home() {
             </div>
             <Gallery2/>
           </div>
-          
+          <div className="flex items-center grid-cols-2 py-4 "> {/* columna 3 */}
+            <Gallery3 />
+            <div className="flex items-center">
+            <Card title="Compromiso con la Calidad" text="En Sein, nos enorgullece nuestro compromiso con la calidad. Utilizamos productos y técnicas de limpieza de última generación para garantizar resultados excepcionales. Su satisfacción es nuestra prioridad." />
+            </div>
+          </div>
         </div>
       </main>
       <div className="py-5">
