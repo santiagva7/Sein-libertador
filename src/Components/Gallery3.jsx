@@ -41,16 +41,14 @@ const Gallery3 = () => {
         </button>
       </div>
       <div className="flex items-center h-full">
-        <div className="mx-auto"> {/* Agregar un div contenedor */}
-          <Image
-            src={posteo}
-            alt="Trabajos realizados"
-            priority={true}
-            className="m-20 h-full rounded-lg"
-            height={600}
-            width={600}
-          />
-        </div>
+        <Image
+          src={posteo}
+          alt="Trabajos realizados"
+          priority={true}
+          className="m-20 h-full rounded-lg"
+          height={600}
+          width={600}
+        />
       </div>
       <div className="mt-12">
         <button className="p-2 sm:p-3 rounded-full" onClick={nextSlide}>
