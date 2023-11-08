@@ -12,7 +12,7 @@ const Header = () => {
         <Image src="/iconoPng.png" width={75} height={75} alt="Icono distintivo de la empresa Sein, de los hermanos Hengen" />
       </div>
       <div className="max-w-2xl mx-auto font-mono text-center  backdrop-blur-md">
-        <div className="p-2 border-r border-l border-p3 shadow-2xl">
+        <div className="p-2 shadow-2xl">
         <h1 className="font-sans font-bold text-logo border-p1 text-4xl">SEIN </h1>
         <p className="text-logo text-center text-base"> Libertador</p>
         </div>
