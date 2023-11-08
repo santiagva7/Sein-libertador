@@ -8,7 +8,7 @@ const instagram = "https://www.instagram.com/sein.libertador/?utm_source=ig_web_
 const Header = () => {
   return (
     <header className="bg-p1 border-gray-300 flex border-b border-p8">
-      <div className="h-full flex items-center justify-center">
+      <div className="pl-2 h-full flex items-center justify-center">
         <Image src="/iconoPng.png" width={75} height={75} alt="Icono distintivo de la empresa Sein, de los hermanos Hengen" />
       </div>
       <div className="max-w-2xl mx-auto font-mono text-center  backdrop-blur-md">

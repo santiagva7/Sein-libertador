@@ -47,7 +47,7 @@ const Gallery3 = () => {
           priority={true}
           className="m-20 h-full rounded-lg"
           height={600}
-          width={400}
+          width={160}
         />
       </div>
       <div className="mt-12">
