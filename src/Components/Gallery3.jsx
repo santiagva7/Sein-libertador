@@ -35,12 +35,13 @@ const Gallery3 = () => {
 
   return (
     <div className="flex justify-center w-2/4 h-full overflow-hidden my-20">
-      <div className="mt-16">
+      <div className="mt-12">
         <button className="p-2" onClick={prevSlide}>
           <Image src="/izq.png" width={8} height={8} className="m-10 w-auto h-auto" alt="arrow" />
         </button>
       </div>
       <div className="flex items-center h-full">
+        <div className="mx-auto"> {/* Agregar un div contenedor */}
           <Image
             src={posteo}
             alt="Trabajos realizados"
@@ -49,8 +50,9 @@ const Gallery3 = () => {
             height={600}
             width={600}
           />
+        </div>
       </div>
-      <div className="mt-16">
+      <div className="mt-12">
         <button className="p-2 sm:p-3 rounded-full" onClick={nextSlide}>
           <Image src="/der.png" width={8} height={8} className="m-10 w-auto h-auto" alt="arrow" />
         </button>
