@@ -36,7 +36,7 @@ const Gallery = () => {
   return (
     <div className="flex justify-center w-2/4 h-full overflow-hidden my-20">
       <div className="mt-24">
-        <button className="p-2 sm:p-3 rounded-full" onClick={prevSlide}>
+        <button className="p-2" onClick={prevSlide}>
           <Image src="/izq.png" width={8} height={8} className="m-10 w-auto h-auto" alt="arrow" />
         </button>
       </div>

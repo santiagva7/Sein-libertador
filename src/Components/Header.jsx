@@ -9,7 +9,7 @@ const Header = () => {
   return (
     <header className="bg-p1 border-gray-300 flex border-b border-p8">
       <div className="h-full flex items-center justify-center">
-        <Image src="/iconoPng.png" width={125} height={125} alt="Icono distintivo de la empresa Sein, de los hermanos Hengen" />
+        <Image src="/iconoPng.png" width={100} height={100} alt="Icono distintivo de la empresa Sein, de los hermanos Hengen" />
       </div>
       <div className="max-w-2xl mx-auto font-mono text-center  backdrop-blur-md">
         <div className="pb-2 border-r border-l border-p3 shadow-2xl">
