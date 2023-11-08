@@ -19,7 +19,7 @@ const Header = () => {
       </div>
       <div className="flex">
         <div className="h-full flex items-center justify-center">
-          <a href="https://wa.me/3329676205"><FaWhatsapp className="text-xl bg-whatsapp text-p4 m-4 shadow-lg" /></a>
+          <a href="https://wa.me/3329676205"><FaWhatsapp className="text-xl text-whatsapp m-4 shadow-lg" /></a>
         </div>
         <div className="h-full flex items-center justify-center">
           <a href="mailto:hengenotoniel@gmail.com"><FiMail className="text-xl text-p4 m-4 shadow-lg" /></a>
