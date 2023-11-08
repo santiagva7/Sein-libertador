@@ -28,7 +28,7 @@ module.exports = {
       'p7': '#FFFFFF', 
       'p8': '#000000', 
       'logo': '#3C3C39',
-
+      'whatsapp': '#25D366',
     },
   },
   plugins: [],
